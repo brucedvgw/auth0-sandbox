@@ -1,5 +1,5 @@
 resource "auth0_client" "my_app_client" {
-  name            = "ClickOps (Managed by Terraform)"
+  name            = "ClickOps (Managed by Terraform)-Update"
   description     = "Example Application Loooooong Description"
   app_type        = "spa" # Native Apps, Single-Page Apps, Machine to Machine Apps
   is_first_party  = true # https://auth0.com/docs/api-auth/user-consent
