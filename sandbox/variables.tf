@@ -1,8 +1,5 @@
-variable "domain" {
-}
+variable "domain" {}
 
-variable "client_id" {
-}
+variable "client_id" {}
 
-variable "client_secret" { 
-}
+variable "client_secret" {}
