@@ -1,6 +1,6 @@
 
 provider "auth0" {
-  AUTH0_DOMAIN = "${var.domain}"
-  AUTH0_CLIENT_ID = "${var.client_id}"
-  AUTH0_CLIENT_SECRET = "${var.client_secret}"
+  "domain" = "${var.domain}"
+  "client_id" = "${var.client_id}"
+  "client_secret" = "${var.client_secret}"
 }
